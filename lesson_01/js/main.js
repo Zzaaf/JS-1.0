@@ -24,4 +24,3 @@ mainList.shopGoods[2] = prompt("Какой тип товаров будем пр
 console.log(mainList.shopGoods);
 
 alert("Бюджет на 1 день: " +budget / 30);
-

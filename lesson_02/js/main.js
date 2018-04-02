@@ -36,7 +36,7 @@ let v = 0;
 
 while (v < 5) {
 	let a = prompt("Какой тип товаров будем продавать?");
-	mainList.shopGoods[i] = a;
+	mainList.shopGoods[v] = a;
 	v++;
 }
 
@@ -45,7 +45,7 @@ let b = 0;
 
 do {
 	let a = prompt("Какой тип товаров будем продавать?");
-	mainList.shopGoods[i] = a;
+	mainList.shopGoods[b] = a;
 	b++;
 }
 while (b < 5);

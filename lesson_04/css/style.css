@@ -1,0 +1,13 @@
+html {
+	background-color: #fff;
+}
+body {
+	box-sizing: border-box;
+	width: 960px;
+	min-height: 500px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: lightblue;
+	font-size: 16px;
+	font-weight: 900;
+}

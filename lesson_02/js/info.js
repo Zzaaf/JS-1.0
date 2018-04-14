@@ -28,7 +28,7 @@ if (num_2 < 49) {
 
 // опрос тернарным оператором возраста
 var stop = false, 
-	//age  = prompt("Сколько тебе лет бро?");
+	// age  = prompt("Сколько тебе лет бро?");
 	age  = 16;
 // первое действие если верно, второе если нет
 age > 18 ? location.assign("continue.html") : stop = true;

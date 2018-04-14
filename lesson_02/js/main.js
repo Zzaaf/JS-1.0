@@ -23,32 +23,37 @@ mainList = {
 // mainList.shopGoods[1] = prompt("Какой тип товаров будем продавать?");
 // mainList.shopGoods[2] = prompt("Какой тип товаров будем продавать?");
 
-for (let i = 0; i<5; i++) {
+// for (let i = 0; i<5; i++) {
 
-	let a = prompt("Какой тип товаров будем продавать?");
-	if ((typeof(a)) === 'string' && ((typeof(a)) !== null && a != '' && a.length < 50)) {
-		console.log('Всё верно');
-		mainList.shopGoods[i] = a;		
-	}
-}
+// 	let a = prompt("Какой тип товаров будем продавать?");
+// 	if ((typeof(a)) === 'string' && ((typeof(a)) !== null && a != '' && a.length < 50)) {
+// 		console.log('Всё верно');
+// 		mainList.shopGoods[i] = a;		
+// 	}
+// }
 // вариант 1
-let v = 0;
+// let v = 0;
 
-while (v < 5) {
-	let a = prompt("Какой тип товаров будем продавать?");
-	mainList.shopGoods[v] = a;
-	v++;
-}
+// while (v < 5) {
+// 	let a = prompt("Какой тип товаров будем продавать?");
+// 	if (a == "" || a == null) {
+// 		alert('Введите хоть что-нибудь!');
+// 		let a = prompt("Какой тип товаров будем продавать?");
+// 	} else {
+// 		mainList.shopGoods[v] = a;
+// 		v++;
+// 	};	
+// };
 
 // вариант 2
-let b = 0;
+// let b = 0;
 
-do {
-	let a = prompt("Какой тип товаров будем продавать?");
-	mainList.shopGoods[b] = a;
-	b++;
-}
-while (b < 5);
+// do {
+// 	let a = prompt("Какой тип товаров будем продавать?");
+// 	mainList.shopGoods[b] = a;
+// 	b++;
+// }
+// while (b < 5);
 
 // конец дз
 

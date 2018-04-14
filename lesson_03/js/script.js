@@ -1,13 +1,13 @@
 //Третий урок по JS
 //Объявляем переменные.
 let money,
-				name,
-				time,
-				price,
-				newPrice,
-				dayBudget,
-				amountEmployers
-//Объявляем функцию, где задаются стартоые вопросы.
+	name,
+	time,
+	price,
+	newPrice,
+	dayBudget,
+	amountEmployers
+//Объявляем функцию, где задаются стартовые вопросы.
 function start() {
 	money = prompt("Ваш бюджет?");
 	while(isNaN(money) || money == '' || money == null) {

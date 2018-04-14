@@ -1,11 +1,11 @@
 let li = document.querySelector('.menu-item'),
-		newMenuItem = li.cloneNode(false),
-		ul = document.getElementsByTagName('ul')[0],
-		ulTest = document.body.getElementsByClassName('menu')[0],
-		title = document.getElementById('title'),
-		adv = document.querySelector('.adv'),
-		column = document.querySelectorAll('.column');
-		answer = document.getElementById('prompt'),
+	newMenuItem = li.cloneNode(false),
+	ul = document.getElementsByTagName('ul')[0],
+	ulTest = document.body.getElementsByClassName('menu')[0],
+	title = document.getElementById('title'),
+	adv = document.querySelector('.adv'),
+	column = document.querySelectorAll('.column');
+	answer = document.getElementById('prompt'),
 
 
 //В новый элемент списка добавляем текст

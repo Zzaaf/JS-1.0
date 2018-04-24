@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Выборы РФ</title>
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-	<link rel="stylesheet" href="css/style.css">
+	<title>Выборы президента РФ</title>
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 	<!-- Main Page -->
 	<div class="main">
 		<div class="main-cards">
-			<div class="main-cards-item main-cards-item-active">
+			<div class="main-cards-item">
 				<div class="candidate-block">
 					<div class="photo photo-1"></div>
 					<div class="result">
@@ -28,7 +29,7 @@
 				<div class="sex">Мужской</div>
 				Полит. взгляды:
 				<div class="views">Левые</div>
-				Биография
+				Биография:
 				<div class="bio">13 декабря 2016 года объявил, что намерен баллотироваться на президентских выборах 2018 года, опубликовал основные положения своей предвыборной программы и начал собирать сторонников</div>
 			</div>
 			<div class="main-cards-item ">
@@ -48,7 +49,7 @@
 				<div class="sex">Женский</div>
 				Полит. взгляды:
 				<div class="views">Либеральные</div>
-				Биография
+				Биография:
 				<div class="bio">Ко всем прочим заслугам можно отнести ее активную гражданскую позицию. Еще в конце 2011-го, после выборов в Государственную думу, вошла в десятку самых влиятельных российских женщин, рейтинг которой был составлен радиостанцией «Эхо Москвы»..</div>
 			</div>
 		</div>
@@ -72,10 +73,11 @@
 	<!-- Customization -->
 	<div class="custom">
 		<div class="custom-info">
-			<label for="name">Фамилия Имя Отчество</label>
-			<input type="text" id="name">
+			<label for="name">Фамилия Имя Отчество кандидата</label>
+			<input type="text" id="name" placeholder="Не менее трёх русских букв">
 			<label for="age">Возраст, лет</label>
 			<input type="text" id="age">
+			<div id="age-message"></div>
 			<div class="radio">
 				<input value="Мужской" id="male" checked name="sex" type="radio">
 				<label for="sex">Мужчина</label>
@@ -88,7 +90,7 @@
 				<option value="Правые">Правые</option>
 			</select>	
 			<label for="bio">Биография</label>
-			<textarea name="bio" id="bio" cols="40" rows="8"></textarea>
+			<textarea name="bio" id="bio" cols="40" rows="8" placeholder="Не менее 10 русских букв"></textarea>
 		</div>
 
 		<div class="custom-char">
@@ -152,6 +154,6 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

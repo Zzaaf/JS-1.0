@@ -477,7 +477,7 @@ window.addEventListener('DOMContentLoaded', function () {
 	// установка результатов
 	function setResults() {
 		result = document.querySelectorAll('.result-count');
-		for (let i = 0; i < result.length; i++) {
+		for (let i = 1; i < result.length; i++) {
 			result[i].innerHTML = candidate[i].result + '%';
 		};
 	};
@@ -493,7 +493,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 	// генератор случайных целых чисел
 	function getRandomInRange(min, max) {
-	 return Math.floor(Math.random() * (max - min + 5)) + min;
+	 return Math.floor(Math.random() * (max - min + 1)) + min;
 	};
 
 	// голосование

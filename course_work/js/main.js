@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', function () {
 	let overlay         = document.getElementsByClassName('overlay')[0],
 			modal           = overlay.getElementsByClassName('popup')[0],
-			modalBtn        = document.getElementById('popup-btn'),
+			modalButton     = document.getElementById('popup-btn'),
 			main            = document.getElementsByClassName('main')[0],
 			mainCards       = main.getElementsByClassName('main-cards-item'),
 			custom          = document.getElementsByClassName('custom')[0],
@@ -70,7 +70,7 @@ window.addEventListener('DOMContentLoaded', function () {
 	// событие с модальным окном
 	modal.classList.add('animated', 'fadeIn');
 	// событие нажатия кнопки на модальном окне и переход в окно кастомизации
-	modalBtn.addEventListener('click', function() {
+	modalButton.addEventListener('click', function() {
 		setTimeout(function() {
    overlay.classList.add('animated', 'fadeOut');
    }, 500);

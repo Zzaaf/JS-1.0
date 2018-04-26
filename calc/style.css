@@ -1,0 +1,8 @@
+#calc {
+  margin: 100px 400px 10px 400px;
+}
+#result {
+  height: 50px;
+  width: 100%;
+  text-align: right;
+}
